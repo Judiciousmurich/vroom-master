@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 const Navbar: React.FC = () => {
   return (
-    <div>
+    <div className="justify-between">
       <div>
         <div>
           <img src="" alt="LOGO" />

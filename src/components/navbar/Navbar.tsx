@@ -21,7 +21,7 @@ const Navbar: React.FC = () => {
       </div>
       <div className="flex gap-4 items-center">
         <p className="bg-[#3d903b] text-white rounded-full p-3"><FaPlus/></p>
-        <p><PiBellSimpleZ/></p>
+        <PiBellSimpleZ className="text-lg"/>
         <p>Profile</p>
       </div>
     </div>

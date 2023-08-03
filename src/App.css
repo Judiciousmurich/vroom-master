@@ -1,3 +1,6 @@
+*{
+    white-space: nowrap;
+}
 .active{
     background-color: white;
     color: #060b20;

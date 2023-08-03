@@ -1,7 +1,7 @@
 import { MdVerifiedUser } from "react-icons/md";
 const PopularCar = () => {
   return (
-    <div className="w-fit border bg-[#e9f2ff] rounded-lg">
+    <div className="border bg-[#e9f2ff] rounded-lg w-full">
       <div className="flex justify-between p-3">
         <div className="flex ">
           <img
@@ -15,13 +15,13 @@ const PopularCar = () => {
           </div>
         </div>
         <div>
-          <h1 className="bg-white rounded-lg px-3 py-1">2 Unit available</h1>
+          <p className="bg-white rounded-lg px-3 py-1 whitespace-nowrap" >2 Units available</p>
         </div>
       </div>
       <div className="flex justify-center ">
-        <img className="h-[8rem]" src="/car1.png" alt="car" />
+        <img className="h-[10rem]" src="/car1.png" alt="car" />
       </div>
-      <div className="flex justify-between gap-[4rem] bg-[#e6e9f3] p-3">
+      <div className="flex justify-between gap-4 bg-[#e6e9f3] p-3">
         <div className="flex gap-2">
           <img
             className="rounded-full w-[3rem] h-[3rem] object-contain"

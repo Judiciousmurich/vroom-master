@@ -1,12 +1,10 @@
-import PopularCar from "../components/cars/PopularCar";
+import PopularCars from "../components/cars/PopularCars";
 
 const Home = () => {
   return (
     <div>Home
 
-      <div>
-        <PopularCar/>
-      </div>
+    <PopularCars/>
     </div>
 
   );

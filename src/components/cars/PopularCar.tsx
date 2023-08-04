@@ -1,5 +1,5 @@
 import { MdVerifiedUser } from "react-icons/md";
-const PopularCar = () => {
+const PopularCar = ({ carInfo }: { carInfo: { carBrandImg: string, carImg: string, carName: string, carModel: string, amountPday: string, ownerName: string, ownerImg: string, bgColor: string, bg2Color: string } }) => {
   return (
     <div className="border bg-[#e9f2ff] rounded-lg w-full">
       <div className="flex justify-between p-3">
@@ -10,8 +10,8 @@ const PopularCar = () => {
             alt="logo"
           />
           <div>
-            <h1 className="font-bold">Porsche 911</h1>
-            <p>Turbo S - 2021</p>
+            <h1 className="font-bold">{carInfo.carName}</h1>
+            <p>{carInfo.carModel}</p>
           </div>
         </div>
         <div>
@@ -29,7 +29,7 @@ const PopularCar = () => {
             alt="profile"
           />
           <div className="">
-            <h1 className="font-bold">Leslie A lexander</h1>
+            <h1 className="font-bold">{carInfo.ownerName}</h1>
             <p className="flex gap-2 items-center">
               <MdVerifiedUser className="text-[#55b4dc]" />
               verified User

@@ -1,12 +1,13 @@
 import PopularCars from "../components/cars/PopularCars";
+import MainComponent from "../components/dreamcar/MainComponent";
 
 const Home = () => {
   return (
-    <div>Home
-
-    <PopularCars/>
+    <div>
+      Home
+      <MainComponent />
+      <PopularCars />
     </div>
-
   );
 };
 

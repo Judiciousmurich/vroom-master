@@ -26,7 +26,7 @@ const PopularCars = () => {
     },
     {
       carBrandImg: "/chevroletlogo.png",
-      carImg: "/chevrolet.png",
+      carImg: "/chevrolet2.png",
       carName: "Chevrolet C8",
       carModel: "Corvette Stringray",
       amountPday: "",

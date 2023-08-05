@@ -6,7 +6,7 @@ const PopularCar = ({ carInfo }: { carInfo: { carBrandImg: string, carImg: strin
         <div className="flex ">
           <img
             className="rounded-full  h-[3rem] w-[3rem]"
-            src="/ferrarilogo.png"
+            src={carInfo.carBrandImg}
             alt="logo"
           />
           <div>
@@ -19,7 +19,7 @@ const PopularCar = ({ carInfo }: { carInfo: { carBrandImg: string, carImg: strin
         </div>
       </div>
       <div className="flex justify-center ">
-        <img className="h-[10rem]" src="/car1.png" alt="car" />
+        <img className="h-[10rem]" src={carInfo.carImg} alt="car" />
       </div>
       <div className="flex justify-between gap-4 bg-[#e6e9f3] p-3">
         <div className="flex gap-2">

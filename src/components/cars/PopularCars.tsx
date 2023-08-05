@@ -3,8 +3,8 @@ import PopularCar from "./PopularCar";
 const PopularCars = () => {
   const popularCars = [
     {
-      carBrandImg: "",
-      carImg: "",
+      carBrandImg: "/ferrarilogo.png",
+      carImg: "/car1.png",
       carName: "Porsche 911",
       carModel: "Turbo S - 2021",
       amountPday: "",
@@ -14,8 +14,8 @@ const PopularCars = () => {
       bg2Color: "",
     },
     {
-      carBrandImg: "",
-      carImg: "",
+      carBrandImg: "/nissanlogo.png",
+      carImg: "/nissanGTR.png",
       carName: "Nissan GT-R-2023",
       carModel: "Nismo 3.8 V6",
       amountPday: "",
@@ -25,8 +25,8 @@ const PopularCars = () => {
       bg2Color: "",
     },
     {
-      carBrandImg: "",
-      carImg: "",
+      carBrandImg: "/chevroletlogo.png",
+      carImg: "/chevrolet.png",
       carName: "Chevrolet C8",
       carModel: "Corvette Stringray",
       amountPday: "",

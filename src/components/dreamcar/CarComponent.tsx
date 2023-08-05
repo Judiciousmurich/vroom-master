@@ -1,6 +1,6 @@
 // CarComponent.tsx
 
-import { FaSearch } from "react-icons/fa";
+import { FaAngleDown, FaSearch } from "react-icons/fa";
 
 interface CarProps {
   carBrand: string;
@@ -19,10 +19,13 @@ const CarComponent: React.FC<CarProps> = ({
     <>
       <div className="flex gap-4 justify-around">
         <div className="grid grid-cols-4 bg-white border rounded-[20px]  gap-10  mb-6">
-          <div className="p-4 border-r-2">
+        <div className="flex">
+        <div className="p-4 border-r-2">
             <p className="text-sm text-gray-500 ">CAR BRAND</p>
             <p className="text-sm text-gray-800 font-bold">{carBrand}</p>
           </div>
+          <div><FaAngleDown/></div>
+        </div>
           <div className="border-r-2 p-4">
             <p className="text-sm text-gray-500 ">CAR MODEL</p>
             <p className="text-sm text-gray-800 font-bold">{carModel}</p>

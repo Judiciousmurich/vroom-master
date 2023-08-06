@@ -1,17 +1,17 @@
 import { MdVerifiedUser } from "react-icons/md";
-const PopularCar = () => {
+const PopularCar = ({ carInfo }: { carInfo: { carBrandImg: string, carImg: string, carName: string, carModel: string, amountPday: string, ownerName: string, ownerImg: string, bgColor: string, bg2Color: string } }) => {
   return (
     <div className="border bg-[#e9f2ff] rounded-lg w-full">
       <div className="flex justify-between p-3">
         <div className="flex ">
           <img
             className="rounded-full  h-[3rem] w-[3rem]"
-            src="/ferrarilogo.png"
+            src={carInfo.carBrandImg}
             alt="logo"
           />
           <div>
-            <h1 className="font-bold">Porsche 911</h1>
-            <p>Turbo S - 2021</p>
+            <h1 className="font-bold">{carInfo.carName}</h1>
+            <p>{carInfo.carModel}</p>
           </div>
         </div>
         <div>
@@ -19,7 +19,7 @@ const PopularCar = () => {
         </div>
       </div>
       <div className="flex justify-center ">
-        <img className="h-[10rem]" src="/car1.png" alt="car" />
+        <img className="h-[10rem]" src={carInfo.carImg} alt="car" />
       </div>
       <div className="flex justify-between bg-[#e0eaf9] p-3">
         <div className="flex gap-2">
@@ -29,7 +29,7 @@ const PopularCar = () => {
             alt="profile"
           />
           <div className="">
-            <h1 className="font-bold">Leslie A lexander</h1>
+            <h1 className="font-bold">{carInfo.ownerName}</h1>
             <p className="flex gap-2 items-center">
               <MdVerifiedUser className="text-[#55b4dc]" />
               verified User

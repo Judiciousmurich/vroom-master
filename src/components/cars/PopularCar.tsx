@@ -21,7 +21,7 @@ const PopularCar = ({ carInfo }: { carInfo: { carBrandImg: string, carImg: strin
       <div className="flex justify-center ">
         <img className="h-[10rem]" src={carInfo.carImg} alt="car" />
       </div>
-      <div className="flex justify-between gap-4 bg-[#e6e9f3] p-3">
+      <div className="flex justify-between bg-[#e0eaf9] p-3">
         <div className="flex gap-2">
           <img
             className="rounded-full w-[3rem] h-[3rem] object-contain"
@@ -37,7 +37,7 @@ const PopularCar = ({ carInfo }: { carInfo: { carBrandImg: string, carImg: strin
           </div>
         </div>
         <div>
-          <h1 className="font-bold text-2xl">
+          <h1 className="font-bold sm:text-2xl">
             $950<span className="font-normal">/day</span>
           </h1>
         </div>

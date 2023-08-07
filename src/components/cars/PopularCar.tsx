@@ -25,7 +25,7 @@ const PopularCar = ({ carInfo }: { carInfo: { carBrandImg: string, carImg: strin
         <div className="flex gap-2">
           <img
             className="rounded-full w-[3rem] h-[3rem] object-contain"
-            src="/user-avatar.png"
+            src={carInfo.ownerImg}
             alt="profile"
           />
           <div className="">

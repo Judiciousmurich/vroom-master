@@ -24,7 +24,6 @@ const CarComponent: React.FC<CarProps> = ({
             <p className="text-sm text-gray-500 ">CAR BRAND</p>
             <p className="text-sm text-gray-800 font-bold">{carBrand}</p>
           </div>
-          <div><FaAngleDown/></div>
         </div>
           <div className="border-r-2 p-4">
             <p className="text-sm text-gray-500 ">CAR MODEL</p>

@@ -8,7 +8,7 @@ const MainComponent: React.FC = () => {
       carBrand="Porsche"
       carModel="Any"
       pickupLocation="Judicious M. Murich Airport"
-      pickupDateAndReturnDate="Apr 27 - May 1"
+      pickupDateAndReturnDate="Apr 27 - june 1"
     />
   );
 };

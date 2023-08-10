@@ -10,8 +10,8 @@ const PopularCars = () => {
       amountPday: "",
       ownerName: "Judicious Murich",
       ownerImg: "/judy.jpg",
-      bgColor: "",
-      bg2Color: "",
+      bgColor: "bg-[#eef1fa]",
+      bg2Color: "bg-[#e6e9f3]",
     },
     {
       carBrandImg: "/nissanlogo.png",
@@ -21,8 +21,8 @@ const PopularCars = () => {
       amountPday: "",
       ownerName: "Amos Mwongela",
       ownerImg: "https://avatars.githubusercontent.com/u/86522089?v=4",
-      bgColor: "",
-      bg2Color: "",
+      bgColor: "bg-[#e9f2ff]",
+      bg2Color: "bg-[#e0eaf9]",
     },
     {
       carBrandImg: "/chevroletlogo.png",
@@ -32,8 +32,8 @@ const PopularCars = () => {
       amountPday: "",
       ownerName: "Joshua Musira",
       ownerImg: "https://avatars.githubusercontent.com/u/116023336?v=4",
-      bgColor: "",
-      bg2Color: "",
+      bgColor: "bg-[#ffe9f2]",
+      bg2Color: "bg-[#f9dfea]",
     },
   ];
   return (

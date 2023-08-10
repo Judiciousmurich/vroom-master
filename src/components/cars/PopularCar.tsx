@@ -1,7 +1,7 @@
 import { MdVerifiedUser } from "react-icons/md";
 const PopularCar = ({ carInfo }: { carInfo: { carBrandImg: string, carImg: string, carName: string, carModel: string, amountPday: string, ownerName: string, ownerImg: string, bgColor: string, bg2Color: string } }) => {
   return (
-    <div className={`border rounded-lg w-full ${carInfo.bgColor}`}>
+    <div className={`rounded-lg w-full ${carInfo.bgColor}`}>
       <div className="flex justify-between p-3">
         <div className="flex gap-3 items-center">
           <img

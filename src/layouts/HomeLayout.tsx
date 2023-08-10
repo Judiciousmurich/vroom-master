@@ -5,7 +5,7 @@ const HomeLayout = () => {
   return (
     <div>
       <Navbar />
-      <div className="2xl:flex 2xl:justify-center">
+      <div className="2xl:flex 2xl:justify-center bg-[#060b20]" >
         <Outlet />
       </div>
     </div>

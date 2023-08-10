@@ -1,11 +1,11 @@
 import { MdVerifiedUser } from "react-icons/md";
 const PopularCar = ({ carInfo }: { carInfo: { carBrandImg: string, carImg: string, carName: string, carModel: string, amountPday: string, ownerName: string, ownerImg: string, bgColor: string, bg2Color: string } }) => {
   return (
-    <div className="border bg-[#e9f2ff] rounded-lg w-full">
+    <div className={`rounded-lg w-full ${carInfo.bgColor}`}>
       <div className="flex justify-between p-3">
-        <div className="flex ">
+        <div className="flex gap-3 items-center">
           <img
-            className="rounded-full  h-[3rem] w-[3rem]"
+            className="rounded-full  h-[2rem] w-[2rem]"
             src={carInfo.carBrandImg}
             alt="logo"
           />
@@ -21,7 +21,7 @@ const PopularCar = ({ carInfo }: { carInfo: { carBrandImg: string, carImg: strin
       <div className="flex justify-center ">
         <img className="h-[10rem]" src={carInfo.carImg} alt="car" />
       </div>
-      <div className="flex justify-between bg-[#e0eaf9] p-3">
+      <div className={`flex justify-between p-3 ${carInfo.bg2Color}`}>
         <div className="flex gap-2">
           <img
             className="rounded-full w-[3rem] h-[3rem] object-contain"
@@ -37,7 +37,7 @@ const PopularCar = ({ carInfo }: { carInfo: { carBrandImg: string, carImg: strin
           </div>
         </div>
         <div>
-          <h1 className="font-bold sm:text-2xl">
+          <h1 className="font-bold sm:text-xl">
             $950<span className="font-normal">/day</span>
           </h1>
         </div>

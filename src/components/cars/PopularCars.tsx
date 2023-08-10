@@ -37,10 +37,13 @@ const PopularCars = () => {
     },
   ];
   return (
-    <div className="grid grid-cols-3 gap-[1.5rem] md:flex md:justify-center md:borde">
-      {popularCars.map((car) => (
-        <PopularCar carInfo={car} />
-      ))}
+    <div className="bg-[#f9fafc] p-8">
+      <h1 className="font-bold text-xl mb-4">🔥 Popular Cars</h1>
+      <div className="grid grid-cols-3 gap-[1.5rem] md:flex md:justify-center md:borde">
+        {popularCars.map((car) => (
+          <PopularCar carInfo={car} />
+        ))}
+      </div>
     </div>
   );
 };

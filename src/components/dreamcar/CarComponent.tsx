@@ -45,7 +45,7 @@ const CarComponent: React.FC<CarProps> = ({
 
         </div>
 
-        <button className="mb-6 px-6 py-1 flex bg-[#415ff2] text-white items-center justify-center rounded-[20px] gap-4"> <FaSearch />Search</button>
+        <button className="mb-6 px-8 py-1 flex bg-[#415ff2] text-white items-center justify-center rounded-[20px] gap-4"> <FaSearch />Search</button>
 
       </div>
 

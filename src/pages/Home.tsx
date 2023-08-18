@@ -1,3 +1,4 @@
+import CollectionCar from "../components/cars/CollectionCar";
 import PopularCars from "../components/cars/PopularCars";
 import MainComponent from "../components/dreamcar/MainComponent";
 
@@ -9,6 +10,7 @@ const Home = () => {
       </h1>
       <MainComponent />
       <PopularCars />
+      <CollectionCar/>
     </div>
   );
 };

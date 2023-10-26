@@ -8,7 +8,6 @@ const OurCollection = () => {
       carName: "Porsche 911",
       carModel: "Turbo S - 2021",
       amountPday: "",
-      bgColor: "bg-[#eef1fa]",
       bg2Color: "bg-[#e6e9f3]",
     },
     {
@@ -17,7 +16,6 @@ const OurCollection = () => {
       carName: "Nissan GT-R-2023",
       carModel: "Nismo 3.8 V6",
       amountPday: "",
-      bgColor: "bg-[#e9f2ff]",
       bg2Color: "bg-[#e0eaf9]",
     },
     {
@@ -26,7 +24,6 @@ const OurCollection = () => {
       carName: "Chevrolet C8",
       carModel: "Corvette Stringray",
       amountPday: "",
-      bgColor: "bg-[#ffe9f2]",
       bg2Color: "bg-[#f9dfea]",
     },
   ];

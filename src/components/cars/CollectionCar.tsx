@@ -1,6 +1,5 @@
-import React from 'react';
 
-const CollectionCar: React.FC = () => {
+const CollectionCar = ({ carInfo }: { carInfo: {  carImg: string, carName: string, carModel: string, amountPday: string,  } }) => {
   return (
     <div className="rounded">
       <h1 className='font-bold capitalize'>Our Collection</h1>

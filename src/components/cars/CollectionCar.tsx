@@ -24,7 +24,7 @@ const CollectionCar = ({ carInfo }: { carInfo: { carImg: string, carName: string
         </div>
         <div>
           <h1 className="font-bold sm:text-xl">
-            $950<span className="font-normal">/day</span>
+            $950<span className="">/day</span>
           </h1>
         </div>
       </div>

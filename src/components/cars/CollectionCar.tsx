@@ -1,5 +1,5 @@
 
-const CollectionCar = ({ carInfo }: { carInfo: { carImg: string, carName: string, carModel: string, amountPday: string, bgColor: string, bg2Color: string } }) => {
+const CollectionCar = ({ carInfo }: { carInfo: { carImg: string, carName: string, carModel: string, amountPday: string, bgColor: string, } }) => {
   return (
     <div className={`rounded-lg w-full ${carInfo.bgColor}`}>
       <div className="">

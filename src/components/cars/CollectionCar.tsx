@@ -11,7 +11,7 @@ const CollectionCar = ({ carInfo }: { carInfo: { carImg: string, carName: string
           </div>
         </div>
         <div>
-          <p className="bg-white rounded-lg px-3 py-1 whitespace-nowrap" >2 Units available</p>
+          <p className="bg-white rounded-lg px-3 py-1 whitespace-nowrap" >2 </p>
         </div>
       </div>
       <div className="flex justify-center ">

@@ -19,5 +19,5 @@ Vroom-Master is a modern, type-safe car rental management application. It provid
 TypeScript -is a statically typed superset of JavaScript, adding strong typing and advanced features to enhance code quality and maintainability.
 
 # Developer
-Judith Muthui
+#### Judith Muthui
 
